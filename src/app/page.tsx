@@ -34,13 +34,13 @@ export default async function Home() {
               </p>
             </div>
 
-            {/* <Link
+            <Link
               className={buttonVariants({
                 className: 'w-full mt-4 mb-6',
               })}
-              href={`/r/create`}>
-              Create Community
-            </Link> */}
+              href={'https://discord.gg/neatgang'}>
+              Join the Discord
+            </Link>
           </dl>
         </div>
       </div>
