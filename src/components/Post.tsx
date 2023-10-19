@@ -1,6 +1,6 @@
 'use client'
 
-import { formatTimeToNow } from '@/lib/utils'
+// import { formatTimeToNow } from '@/lib/utils'
 import { Post, User, Vote } from '@prisma/client'
 import { MessageSquare } from 'lucide-react'
 import Link from 'next/link'
@@ -52,7 +52,7 @@ const Post: FC<PostProps> = ({
               </>
             ) : null}
             <span>Posted by {post.author.username}</span>{' '}
-            {formatTimeToNow(new Date(post.createdAt))}
+            {/* {formatTimeToNow(new Date(post.createdAt))} */}
           </div>
           <a href={`/guides/${subredditName}/post/${post.id}`}>
             <h1 className='text-lg font-semibold py-2 leading-6 text-gray-900'>
