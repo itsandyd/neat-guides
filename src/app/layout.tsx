@@ -27,7 +27,7 @@ export default function RootLayout({
         'bg-white text-slate-900 light',
         inter.className
       )}>
-      <body>
+      <body className='pt-12'>
       {/* bg-slate-50 */}
         <Providers>
           {/* @ts-expect-error Server Component */}
