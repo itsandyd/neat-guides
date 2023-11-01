@@ -19,8 +19,10 @@ const Navbar = async () => {
         </Link>
 
         {/* search bar */}
-        <SearchBar />
-
+        {/* <SearchBar /> */}
+        <Link href="categories">
+          <Button variant="link">Categories</Button>
+        </Link>
         {/* actions */}
         {/* <div className="flex"> */}
         {session?.user ? (
